@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="welcome to isolation film festival">
+    <meta name="keywords" content="film festival">
+    <title>Isolation film festival</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        table,
+        table tr th,
+        table tr td {
+            width: 100%;
+            border: 12;
+            table-layout: fixed;
+            border-color: black;
+        }
+
+
+        html body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7em;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        h1,
+        h3,
+        h4 {
+            padding: 10px 0;
+        }
+
+        h1 {
+            margin-top: 30px;
+        }
+
+        .header {
+            width: 1200px;
+            border-spacing: 0;
+            border-width: 0;
+            padding: 0;
+            border-width: 0;
+            margin: 0 auto;
+            background-color: black;
+        }
+
+        .header .title {
+            text-align: center;
+            color: white;
+        }
+
+        .infor {
+            width: 1200px;
+            height: 10px;
+            background-color: black;
+            text-align: right;
+            color: white;
+        }
+
+        .infor a {
+            padding: 0 20px;
+        }
+
+        .nav {
+            width: 1200px;
+            height: 50px;
+            text-align: center;
+            background-color: black;
+        }
+
+        .banner {
+            width: 1200px;
+            height: 500px;
+            text-align: center;
+        }
+
+        .banner a img {
+            width: 300px;
+            height: 400px;
+        }
+
+        .banner img:hover {
+            width: 350px;
+            height: 450px;
+        }
+
+        .footer {
+            width: 1200px;
+            height: 10px;
+            background-color: black;
+        }
+
+        .footer ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        .footer a {
+            font-size: 5px;
+        }
+
+        table .aboutus {
+            width: 1200px;
+            height: 50px;
+            text-align: center;
+            line-height: 100px;
+            margin: 0 auto;
+        }
+
+        table .film {
+            width: 1200px;
+            height: 500px;
+        }
+
+        table .film .left {
+            width: 600px;
+            height: 350px;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+        table .film .right {
+            width: 600px;
+            height: 350px;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+        table .plot {
+            width: 1200px;
+            height: 500px;
+        }
+
+        table .plot .left {
+            width: 600px;
+            height: 500px;
+            text-align: center;
+        }
+
+        table .plot .left div {
+            text-align: left;
+            margin: 20px 60px;
+        }
+
+        table .plot .right {
+            width: 600px;
+            height: 500px;
+            text-align: center;
+        }
+
+        table .Accolades {
+            width: 1200px;
+            height: 600px;
+        }
+
+        table .Accolades .left {
+            width: 600px;
+            height: 600px;
+            text-align: center;
+        }
+
+        table .Accolades .right {
+            width: 600px;
+            height: 600px;
+            text-align: center;
+        }
+
+        table .takepart {
+            width: 1200px;
+            height: 200px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        table .reviews {
+            width: 400px;
+            height: 200px;
+            text-align: center;
+        }
+
+        table .reviews form {
+            margin: 0 100px 100px 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr class="header">
+            <td class="title" colspan="12">
+                <h1 id="header">Isolation Film Festival</h1>
+                <h4>隔离电影节</h4>
+                <h3>2012.12.01-12.03</h3>
+            </td>
+        </tr>
+
+        <tr class="infor">
+            <td colspan="12">
+                <a href="#">English</a>
+                <a href="#">Chinese</a>
+                <a href="#">Search</a>
+            </td>
+        </tr>
+
+        <tr class="nav">
+            <td colspan="4">
+                <a href="#about">ABOUT THE FESTIVAL</a>
+            </td>
+            <td colspan="4">
+                <a href="#program">PROGRAM</a>
+            </td>
+            <td colspan="4">
+                <a href="#take">TAKE PART</a>
+            </td>
+        </tr>
+
+        <tr class="banner">
+            <td colspan="4">
+                <a href="https://www.imdb.com/title/tt0120382/"><img
+                        src="https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg"
+                        alt="the-truman-show"></a>
+            </td>
+            <td colspan="4">
+                <a href="https://www.youtube.com/watch?v=7BIpuOUz0GE"><img
+                        src="https://m.media-amazon.com/images/M/MV5BMzIwOTdmNjQtOWQ1ZS00ZWQ4LWIxYTMtOWFkM2NjODJiMGY4L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_.jpg"
+                        alt="the legend of 1900"></a>
+            </td>
+            <td colspan="4">
+                <a href="https://www.youtube.com/watch?v=1lNDXtx6ako"><img
+                        src="https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_FMjpg_UX1000_.jpg"
+                        alt="her"></a>
+            </td>
+        </tr>
+
+        <tr class="aboutus">
+            <td colspan="12">
+                <h1 id="about">About us</h1>
+                <h3>Film festival</h3>
+                <p>Isolation Film Festival,pays a lot of attention to movies of various themes</p>
+                <h3>International stage</h3>
+                <p>Isolation Film Festival, an international stage, especially under the COVID, which appropriately
+                    complements the global film scene</p>
+                <h3>Laboratory</h3>
+                <p>Isolation Film Festival，a laboratory and an online gathering place for film newcomers and film lovers
+                    to
+                    communicate and create.</p>
+                <a href="#header" style="color: red; font-size: 28px;">BACK</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="12">
+                <h1 style="text-align: center;" id="program">Program</h1>
+                <hr>
+                <hr>
+            </td>
+        </tr>
+
+        <tr class="film">
+            <td class="left" colspan="6">
+                <a href="https://www.imdb.com/title/tt0120382/"><img
+                        src="https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg"
+                        alt="the-truman-show" width="350px" height="450px"></a>
+            </td>
+            <td class="right" colspan="6">
+                <h1>The Truman Show(1998)</h1>
+                <span>Directed by</span>: <span>Peter Weir</span><br />
+                <span>Written by</span>: <span>Andrew Niccol</span><br />
+                <span>Starring</span>: <span>Jim Carrey/Laura Linney/Ed Harris/Noah
+                    Emmerich/NataschaMcElhone</span><br />
+                <span>Genres:</span> <span>Comedy</span> / <span>Drama</span><br />
+                <span>Country of origin:</span>United States<br />
+                <span>Language:</span> English<br />
+                <span>Release date:</span> <span>June 5, 1998 (United States)</span><br />
+                <span>Runtime:</span> <span>1h 43min</span><br />
+                <span>Also known as:</span> 楚门的世界<br />
+                <span>IMDb:</span> tt0120382<br>
+            </td>
+        </tr>
+
+        <tr class="plot">
+            <td class="left" colspan="6" ;>
+                <h1>Plot</h1>
+                <div>Since birth, a big fat lie defines the well-organised but humdrum life of the kind-hearted
+                    insurance
+                    salesman and ambitious explorer, Truman Burbank. <br><br>
+                    Utterly unaware of the thousands of cleverly hidden
+                    cameras watching his every move, for nearly three decades, Truman's entire existence pivots
+                    around
+                    the
+                    will and the wild imagination of the ruthlessly manipulative television producer, Christof--the
+                    all-powerful TV-God of an extreme 24/7 reality show: The Truman Show. <br><br>
+                    As a result, Truman's
+                    picturesque
+                    neighbourhood with the manicured lawns and the uncannily perfect residents is nothing but an
+                    elaborate
+                    state-of-the-art set, and the only truth he knows is what the worldwide television network and
+                    its
+                    deep
+                    financial interests dictate. <br><br>
+                    Do lab rats know they are forever imprisoned?—Nick Riganas
+                </div>
+            </td>
+            <td class="right" colspan="6" ;>
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAKJnno.img?h=552&w=750&m=6&q=60&u=t&o=f&l=f"
+                    alt="the-truman-show" width="550px" height="400px">
+            </td>
+        </tr>
+
+        <tr class="Accolades">
+            <td class="left" colspan="6" ;>
+                <img src="https://dazedimg-dazedgroup.netdna-ssl.com/1572/azure/dazed-prod/1240/1/1241532.jpg"
+                    alt="the-truman-show" width="550px" height="400px">
+            </td>
+            <td class="right" colspan="6">
+                <table>
+                    <caption>
+                        <h1>Accolades</h1>
+                    </caption>
+                    <tr>
+                        <th>Award</th>
+                        <th>Category</th>
+                        <th>Thespian</th>
+                    </tr>
+                    <tr>
+                        <td>71st Academy Awards </td>
+                        <td>Best Director(Nominated)</td>
+                        <td>Peter Weir</td>
+                    </tr>
+                    <tr>
+                        <td>71st Academy Awards</td>
+                        <td>Best Supporting Actor(Nominated)</td>
+                        <td>Ed Harris</td>
+                    </tr>
+                    <tr>
+                        <td>56th Golden Globe Awards</td>
+                        <td>Best Motion Picture – Drama(Nominated)</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="film">
+            <td class="left" colspan="6">
+                <a href="https://www.youtube.com/watch?v=7BIpuOUz0GE"><img
+                        src="https://m.media-amazon.com/images/M/MV5BMzIwOTdmNjQtOWQ1ZS00ZWQ4LWIxYTMtOWFkM2NjODJiMGY4L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_.jpg"
+                        alt="the legend of 1900" width="350px" height="450px"></a>
+            </td>
+            <td class="right" colspan="6">
+                <h1>The legend of 1900(1998)</h1>
+                <span>Directed by</span>: <span>Giuseppe Tornatore</span><br />
+                <span>Written by</span>: <span>Alessandro Baricco/Giuseppe Tornatore</span><br />
+                <span>Starring</span>: <span>Tim Roth/
+                    Tim Roth
+                    Pruitt Taylor Vince/Mélanie Thierry/Bill Nunn</span><br />
+                <span>Genres:</span> <span>Music</span> / <span>Drama</span><br />
+                <span>Country of origin:</span>Italy<br />
+                <span>Language:</span>English
+                French<br />
+                <span>Release date:</span> <span>28 October 1998</span><br />
+                <span>Runtime:</span> <span>165 minutes (Original cut)</span><br />
+                <span>Also known as:</span> 海上钢琴师<br />
+                <span>IMDb:</span> tt0120731<br>
+            </td>
+        </tr>
+
+        <tr class="plot">
+            <td class="left" colspan="6" ;>
+                <h1>Plot</h1>
+                <div>1900. Danny Boodmann, a stoker on an American passenger liner, Virginian, finds a baby
+                    abandoned on
+                    the ship. He names the child Danny Boodmann T.D. Lemon Nineteen Hundred '1900' and raises the
+                    child
+                    as his own until his death in an accident on the ship. <br><br>
+                    The child never leaves the ship and turns out to be a musical genius, especially when it comes
+                    to
+                    playing the piano. As an adult he befriends a trumpet player in the ship's band, Max Tooney.
+                    <br><br>
+                    After several years on the ship Max leaves, and tells the story of 1900 to the owner of a music
+                    store.—grantss</div>
+            </td>
+            <td class="right" colspan="6" ;>
+                <img src="https://i.pinimg.com/originals/ff/af/bb/ffafbb1e79d4c107502829ac40c900b4.jpg"
+                    alt="the legend of 1900" width="550px" height="400px">
+            </td>
+        </tr>
+
+        <tr class="Accolades">
+            <td class="left" colspan="6" ;>
+                <img src="https://i.ytimg.com/vi/t0u8qciHScY/sddefault.jpg" alt="the legend of 1900" width="550px"
+                    height="400px">
+            </td>
+            <td class="right" colspan="6" ;>
+                <table>
+                    <caption>
+                        <h1>Accolades</h1>
+                    </caption>
+                    <tr>
+                        <th>Award</th>
+                        <th>Category</th>
+                        <th>Thespian</th>
+                    </tr>
+                    <tr>
+                        <td>Golden Ciak Awards 1999</td>
+                        <td>Best Film (Miglior Film)</td>
+                        <td>Giuseppe Tornatore</td>
+                    </tr>
+                    <tr>
+                        <td>Golden Ciak Awards 1999</td>
+                        <td>Best Director (Migliore Regista)</td>
+                        <td>Giuseppe Tornatore</td>
+                    </tr>
+                    <tr>
+                        <td>Golden Ciak Awards 1999</td>
+                        <td>Best Production Design (Migliore Scenografia)</td>
+                        <td>Francesco Frigeri</td>
+                    </tr>
+                    <tr>
+                        <td>Golden Ciak Awards 1999</td>
+                        <td>Best Costume Design (Migliori Costumi)</td>
+                        <td>Maurizio Millenotti</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="film">
+            <td class="left" colspan="6">
+                <a href="https://www.youtube.com/watch?v=1lNDXtx6ako"><img
+                        src="https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_FMjpg_UX1000_.jpg"
+                        alt="her" width="350px" height="450px"></a>
+            </td>
+            <td class="right" colspan="6">
+                <h1>Her(2014)</h1>
+                <span>Directed by</span>: <span>Spike Jonze</span><br />
+                <span>Written by</span>: <span>Spike Jonze</span><br />
+                <span>Starring</span>: <span>Joaquin PhoenixAmy AdamsScarlett Johansson(voice)</span><br />
+                <span>Genres:</span> <span>
+                    Drama</span> / <span>Romance</span><br />
+                <span>Country of origin:</span>United States<br />
+                <span>Language:</span> English<br />
+                <span>Release date:</span> <span>January 10, 2014 (United States) </span><br />
+                <span>Runtime:</span> <span>2h 6min</span><br />
+                <span>Also known as:</span> 她<br />
+                <span>IMDb:</span>tt1798709<br>
+            </td>
+        </tr>
+
+        <tr class="plot">
+            <td class="left" colspan="6" ;>
+                <h1>Plot</h1>
+                <div>Theodore is a lonely man in the final stages of his divorce. <br><br>
+                    When he's not working as a letter writer, his down time is spent playing video games and
+                    occasionally hanging out with friends. He decides to purchase the new OS1, which is
+                    advertised asthe world's first artificially intelligent operating system, "It's not just an
+                    operatingsystem,
+                    it's a consciousness," the ad states.
+                    <br><br> Theodore quickly finds himself drawn in with Samantha, the voice behind his OS1. As
+                    theystart spending time together they grow closer and closer and eventually find themselves in
+                    love.
+                    Having fallen in love with his OS, Theodore finds himself dealing with feelings of both
+                    great joy
+                    and doubt. <br><br>
+                    As an OS, Samantha has powerful intelligence that she uses to help Theodore in ways others
+                    hadn't,
+                    but how does she help him deal with his inner conflict of being in love with an OS?—Bob
+                    Philpot
+                </div>
+            </td>
+            <td class="right" colspan="6" ;>
+                <img src="https://www.indiewire.com/wp-content/uploads/2013/10/her-spike-jonze.jpg" alt="Her"
+                    width="500px" height="300px">
+            </td>
+        </tr>
+
+        <tr class="Accolades">
+            <td class="left" colspan="6" ;>
+                <img src="https://ychef.files.bbci.co.uk/976x549/p01pqw85.jpg" alt="Her" width="500px" height="300px">
+            </td>
+            <td class="right" colspan="6">
+                <table>
+                    <caption>
+                        <h1>Accolades</h1>
+                    </caption>
+                    <tr>
+                        <th>Award</th>
+                        <th>Category</th>
+                        <th>Thespian</th>
+                    </tr>
+                    <tr>
+                        <td>Academy Awards, USA 2014 </td>
+                        <td>Best Writing, Original Screenplay</td>
+                        <td>Spike Jonze</td>
+                    </tr>
+                    <tr>
+                        <td>Academy of Science Fiction, Fantasy & Horror Films, USA 2014</td>
+                        <td>Best Fantasy Film</td>
+                        <td>Ed Harris</td>
+                    </tr>
+                    <tr>
+                        <td>Academy of Science Fiction, Fantasy & Horror Films, USA 2014</td>
+                        <td>Best Actor</td>
+                        <td>Joaquin Phoenix</td>
+                    </tr>
+                </table>
+        <tr>
+            <td colspan="12" style="text-align: center;"><a href="#header" style="color: red; font-size: 28px;">BACK</a>
+            </td>
+        </tr>
+        </td>
+        </tr>
+
+        <tr class="takepart">
+            <td colspan="4">
+                <h1 id="take">Contact us</h1>
+                <h3>Mail</h3>
+                <p>R.ZHAN3@nuigalway.ie</p>
+                <h3>Address</h3>
+                <p>Westside playing field,Galway,Ireland</p>
+                <h3>Phone number</h3>
+                <p>RONG ZHAN：(353)879105901</p>
+            </td>
+            <td colspan="4">
+                <h1>Venues</h1>
+                <h3>Town Hall Theatre In Galway</h3>
+                <a href="https://tht.ie/" style="color: black;">https://tht.ie/</a>
+                <h3>National Center For The Performing Arts in China</h3>
+                <a href="https://en.chncpa.org/" style="color: black;">https://en.chncpa.org/</a>
+            </td>
+            <td class="reviews" colspan="4">
+                <h1>Reviews </h1>
+                <form action="">
+                    <textarea name="" id="" cols="50" rows="5" placeholder="I really like this film...."></textarea><br>
+                    <button type="submit">submit your reviews</button>
+                    <button type="reset">reset your reviews</button>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="12" style="text-align: center;"><a href="#header" style="color: red;font-size: 28px;">BACK</a>
+            </td>
+        </tr>
+
+        <tr class="footer">
+            <td colspan="12" rowspan="4">
+                <ul>
+                    <li><a href="#">User Center</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Legal</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
